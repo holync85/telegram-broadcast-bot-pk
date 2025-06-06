@@ -245,7 +245,7 @@ def broadcastvidfullbtn(update: Update, context: CallbackContext):
 
 def PK_area(update: Update, context: CallbackContext):
     keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Cheras", url="https://www.jbescortsvc.com/perak-area/ipoh")],
+        [InlineKeyboardButton("Ipoh", url="https://www.jbescortsvc.com/perak-area/ipoh")],
         [InlineKeyboardButton("Taiping", url="https://www.jbescortsvc.com/perak-area/taiping")],
     ])
     update.message.reply_text("Click Area：", reply_markup=keyboard)
