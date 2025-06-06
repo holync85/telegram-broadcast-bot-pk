@@ -15,9 +15,9 @@ load_dotenv()
 TOKEN = os.getenv("TOKEN")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-REPO = os.getenv("GITHUB_REPO", "holync85/telegram-broadcast-bot-kl")
-REPO = "holync85/telegram-broadcast-bot-kl"
-FILE_PATH = "subscribers_kl.json"
+REPO = os.getenv("GITHUB_REPO", "holync85/telegram-broadcast-bot-pk")
+REPO = "holync85/telegram-broadcast-bot-pk"
+FILE_PATH = "subscribers_pk.json"
 GITHUB_API_URL = f"https://api.github.com/repos/{REPO}/contents/{FILE_PATH}"
 subscribers = set()
 
